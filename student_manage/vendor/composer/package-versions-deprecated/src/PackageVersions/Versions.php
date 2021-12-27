@@ -23,7 +23,7 @@ final class Versions
      * @deprecated please use {@see self::rootPackageName()} instead.
      *             This constant will be removed in version 2.0.0.
      */
-    const ROOT_PACKAGE_NAME = 'symfony/website-skeleton';
+    const ROOT_PACKAGE_NAME = '__root__';
 
     /**
      * Array of all available composer packages.
@@ -126,6 +126,8 @@ final class Versions
   'twig/extra-bundle' => 'v3.3.4@1fe52d84aa22b7891c7717ef904b1551c8d70100',
   'twig/twig' => 'v3.3.4@65cb6f0b956485e1664f13d023c55298a4bb59ca',
   'webmozart/assert' => '1.10.0@6964c76c7804814a842473e0c8fd15bab0f18e25',
+  'doctrine/data-fixtures' => '1.5.1@f18adf13f6c81c67a88360dca359ad474523f8e3',
+  'doctrine/doctrine-fixtures-bundle' => '3.4.1@31ba202bebce0b66fe830f49f96228dcdc1503e7',
   'myclabs/deep-copy' => '1.10.2@776f831124e9c62e1a2c601ecc52e776d8bb7220',
   'nikic/php-parser' => 'v4.13.2@210577fe3cf7badcc5814d99455df46564f3c077',
   'phar-io/manifest' => '2.0.3@97803eca37d319dfa7826cc2437fc020857acb53',
@@ -161,13 +163,13 @@ final class Versions
   'symfony/phpunit-bridge' => 'v6.0.0@5d6cc6720085084f504d2482fc4a2f268784006b',
   'symfony/web-profiler-bundle' => 'v6.0.1@1f5cdd397af4a87ac6f6890653e92bf3d14ebadc',
   'theseer/tokenizer' => '1.2.1@34a41e998c2183e22995f158c581e7b5e755ab9e',
-  'symfony/polyfill-ctype' => '*@',
-  'symfony/polyfill-iconv' => '*@',
-  'symfony/polyfill-php72' => '*@',
-  'symfony/polyfill-php73' => '*@',
-  'symfony/polyfill-php74' => '*@',
-  'symfony/polyfill-php80' => '*@',
-  'symfony/website-skeleton' => 'v6.0.99@',
+  'symfony/polyfill-ctype' => '*@2cc69aee6b072cfaaf0ed110fe5c9b945c00c9c5',
+  'symfony/polyfill-iconv' => '*@2cc69aee6b072cfaaf0ed110fe5c9b945c00c9c5',
+  'symfony/polyfill-php72' => '*@2cc69aee6b072cfaaf0ed110fe5c9b945c00c9c5',
+  'symfony/polyfill-php73' => '*@2cc69aee6b072cfaaf0ed110fe5c9b945c00c9c5',
+  'symfony/polyfill-php74' => '*@2cc69aee6b072cfaaf0ed110fe5c9b945c00c9c5',
+  'symfony/polyfill-php80' => '*@2cc69aee6b072cfaaf0ed110fe5c9b945c00c9c5',
+  '__root__' => 'dev-master@2cc69aee6b072cfaaf0ed110fe5c9b945c00c9c5',
 );
 
     private function __construct()
